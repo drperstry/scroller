@@ -1,0 +1,38 @@
+{
+  "extension_description": {
+    "message": "Extension for lazy ppl"
+  },
+  "extension_name": {
+    "message": "Auto Scroll"
+  },
+  "context_menu_stop": {
+    "message": "Reset"
+  },
+  "context_menu_start": {
+    "message": "Update"
+  },
+  "default_label_yAxis": {
+    "message": "Y-Axis"
+  },
+  "default_label_toggle": {
+    "message": "Sync"
+  },
+  "default_label_delay": {
+    "message": "Delay"
+  },
+  "default_yAxis": {
+    "message": "30"
+  },
+  "default_toggle": {
+    "message": "false"
+  },
+  "default_delay": {
+    "message": "300"
+  },
+  "default_max_yAxis": {
+    "message": "1000"
+  },
+  "default_max_delay": {
+    "message": "2000"
+  }
+}

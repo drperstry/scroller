@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lazy Scroll</title>
+    <meta charset="UTF-8" />
+    <script type="module" src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="root" class="container">
+      <section id="DelaySection" class="section labelContainer">
+        <label id="delayLabel" for="delay">Delay:</label>
+        <input type="number" id="delay" />
+      </section>
+      <section id="YaxisSection" class="section labelContainer">
+        <label id="yPixelsLabel" for="Ypixels">Y Pixels:</label>
+        <input type="number" id="Ypixels" />
+      </section>
+      <div id="buttonContainer" class="section">
+        <button id="start" class="button secondary">Start</button>
+        <button id="reset" class="button primary">Reset</button>
+      </div>
+      <section id="toggleSection" class="section">
+        <label id="toggleLabel" for="toggle">Toggle:</label>
+        <input type="checkbox" id="toggle" />
+      </section>
+    </div>
+  </body>
+</html>

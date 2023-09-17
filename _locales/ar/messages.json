@@ -1,0 +1,38 @@
+{
+  "extension_description": {
+    "message": "إضافة للعجازين"
+  },
+  "extension_name": {
+    "message": "تمرير تلقائي"
+  },
+  "context_menu_stop": {
+    "message": "توقف التمرير"
+  },
+  "context_menu_start": {
+    "message": "تمرير"
+  },
+  "default_label_yAxis": {
+    "message": "عامودي"
+  },
+  "default_label_toggle": {
+    "message": "تزامن"
+  },
+  "default_label_delay": {
+    "message": "تأخير"
+  },
+  "default_yAxis": {
+    "message": "30"
+  },
+  "default_toggle": {
+    "message": "false"
+  },
+  "default_delay": {
+    "message": "300"
+  },
+  "default_max_yAxis": {
+    "message": "1000"
+  },
+  "default_max_delay": {
+    "message": "2000"
+  }
+}
