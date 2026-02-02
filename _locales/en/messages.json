@@ -1,6 +1,6 @@
 {
   "extension_description": {
-    "message": "Extension for lazy ppl"
+    "message": "Automatically scroll web pages at your preferred speed. Perfect for hands-free reading."
   },
   "extension_name": {
     "message": "Auto Scroll"
@@ -9,16 +9,31 @@
     "message": "Reset"
   },
   "context_menu_start": {
-    "message": "Update"
+    "message": "Start"
+  },
+  "button_pause": {
+    "message": "Pause"
+  },
+  "button_resume": {
+    "message": "Resume"
+  },
+  "status_ready": {
+    "message": "Ready"
+  },
+  "status_scrolling": {
+    "message": "Scrolling..."
+  },
+  "status_paused": {
+    "message": "Paused"
   },
   "default_label_yAxis": {
-    "message": "Y-Axis"
+    "message": "Distance (px)"
   },
   "default_label_toggle": {
-    "message": "Sync"
+    "message": "Auto-sync"
   },
   "default_label_delay": {
-    "message": "Delay"
+    "message": "Speed (ms)"
   },
   "default_yAxis": {
     "message": "30"
@@ -34,5 +49,14 @@
   },
   "default_max_delay": {
     "message": "2000"
+  },
+  "error_invalid_values": {
+    "message": "Please enter valid values (Speed must be at least 10ms)"
+  },
+  "error_connection": {
+    "message": "Could not connect. Try refreshing the page."
+  },
+  "shortcut_hint": {
+    "message": "Tip: Press Space to pause/resume"
   }
 }
