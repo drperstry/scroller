@@ -1,24 +1,39 @@
 {
   "extension_description": {
-    "message": "إضافة للعجازين"
+    "message": "تمرير صفحات الويب تلقائيًا بالسرعة المفضلة لديك. مثالي للقراءة بدون استخدام اليدين."
   },
   "extension_name": {
     "message": "تمرير تلقائي"
   },
   "context_menu_stop": {
-    "message": "توقف التمرير"
+    "message": "إعادة تعيين"
   },
   "context_menu_start": {
-    "message": "تمرير"
+    "message": "بدء"
+  },
+  "button_pause": {
+    "message": "إيقاف مؤقت"
+  },
+  "button_resume": {
+    "message": "استئناف"
+  },
+  "status_ready": {
+    "message": "جاهز"
+  },
+  "status_scrolling": {
+    "message": "جاري التمرير..."
+  },
+  "status_paused": {
+    "message": "متوقف مؤقتًا"
   },
   "default_label_yAxis": {
-    "message": "عامودي"
+    "message": "المسافة (بكسل)"
   },
   "default_label_toggle": {
-    "message": "تزامن"
+    "message": "مزامنة تلقائية"
   },
   "default_label_delay": {
-    "message": "تأخير"
+    "message": "السرعة (مللي ثانية)"
   },
   "default_yAxis": {
     "message": "30"
@@ -34,5 +49,14 @@
   },
   "default_max_delay": {
     "message": "2000"
+  },
+  "error_invalid_values": {
+    "message": "يرجى إدخال قيم صالحة (السرعة يجب أن تكون 10 مللي ثانية على الأقل)"
+  },
+  "error_connection": {
+    "message": "تعذر الاتصال. حاول تحديث الصفحة."
+  },
+  "shortcut_hint": {
+    "message": "تلميح: اضغط مفتاح المسافة للإيقاف المؤقت/الاستئناف"
   }
 }

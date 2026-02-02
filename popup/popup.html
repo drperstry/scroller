@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Lazy Scroll</title>
+    <title>Auto Scroll</title>
     <meta charset="UTF-8" />
     <script type="module" src="popup.js"></script>
     <link rel="stylesheet" href="popup.css" />
   </head>
   <body>
     <div id="root" class="container">
+      <div id="statusBar" class="status-bar">
+        <span id="statusIcon" class="status-icon"></span>
+        <span id="statusText">Ready</span>
+      </div>
       <section id="DelaySection" class="section labelContainer">
-        <label id="delayLabel" for="delay">Delay:</label>
-        <input type="number" id="delay" />
+        <label id="delayLabel" for="delay">Speed (ms):</label>
+        <input type="number" id="delay" placeholder="300" />
       </section>
       <section id="YaxisSection" class="section labelContainer">
-        <label id="yPixelsLabel" for="Ypixels">Y Pixels:</label>
-        <input type="number" id="Ypixels" />
+        <label id="yPixelsLabel" for="Ypixels">Distance (px):</label>
+        <input type="number" id="Ypixels" placeholder="30" />
       </section>
       <div id="buttonContainer" class="section">
-        <button id="start" class="button secondary">Start</button>
-        <button id="reset" class="button primary">Reset</button>
+        <button id="start" class="button primary">Start</button>
+        <button id="pause" class="button warning" style="display: none;">Pause</button>
+        <button id="reset" class="button secondary">Reset</button>
       </div>
-      <section id="toggleSection" class="section">
-        <label id="toggleLabel" for="toggle">Toggle:</label>
-        <input type="checkbox" id="toggle" />
+      <section id="toggleSection" class="section toggle-section">
+        <label id="toggleLabel" for="toggle">Sync:</label>
+        <label class="switch">
+          <input type="checkbox" id="toggle" />
+          <span class="slider"></span>
+        </label>
       </section>
+      <div class="shortcuts-hint">
+        <small>Tip: Press <kbd>Space</kbd> to pause/resume</small>
+      </div>
     </div>
   </body>
 </html>
