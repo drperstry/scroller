@@ -1,0 +1,29 @@
+name: Publish Chrome Extension
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Zip extension
+        run: |
+          zip -r extension.zip . \
+            -x ".git/*" \
+            -x ".github/*"
+
+      - name: Upload to Chrome Web Store
+        uses: trmcnvn/chrome-addon@v2
+        with:
+          extension: ${{ secrets.EXTENSION_ID }}
+          zip: extension.zip
+          client-id: ${{ secrets.CWS_CLIENT_ID }}
+          client-secret: ${{ secrets.CWS_CLIENT_SECRET }}
+          refresh-token: ${{ secrets.CWS_REFRESH_TOKEN }}
